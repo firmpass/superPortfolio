@@ -1,68 +1,261 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Super Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
-</head>
-<body>
-    <div class="jumbotron-text">
-        <h1>Eric "ET" Thornton</h1>
-        <p>Full-Stack Web Developer in Atlanta, GA.</p>
-      </div>
+  <head>
+    <meta charset="utf-8">
+    <title>Eric "ET" Thornton Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
 
-      <div class="main-content">
-        <div class="content-header">
-          <a class="anchor" name="about"></a>
-          <h2>About</h2>
+    <!-- BEGIN NAVBAR -->
+    <div class="navbar">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <!-- END NAVBAR -->
+
+    <div class="container">
+
+      <!-- HEADER -->
+      <div class="jumbotron">
+        <div class="jumbotron-text">
+          <h1>Eric Thornton</h1>
+          <p>Full-Stack Web Developer located in ATL, GA.</p>
         </div>
-        <div class="content-body">
-          <p>text here</p>
-          <p>text here</p>
-        </div>
-      </div>
-
-      <div class="content-body">
-        <div class="card">
-          <div class="card-header">
-            <h4>Company <span class="job-title">Job Title</span></h4>
-          </div>
-          <div class="card-content">
-            <p>Paragraph text</p>
-          </div>
-        </div>
-
-        <div class="card">
-            <div class="card-header">
-              <h4>School <span class="job-title">Dates Attended</span></h4>
-            </div>
-            <div class="card-content">
-              <p>Paragraph Text</p>
-            </div>
-          </div>
-
-          <div class="project-card">
-            <div class="project-image">
-              <img src="http://placehold.it/250x350">
-            </div>
-            <div class="project-content">
-              <h4>Project Name</h4>
-              <p>Paragraph text</p>
-              <a href="#">Link Text</a>
-            </div>
-          </div>
-
-          <ul class="ul-skills">
-            <li class="li-skills">Javascript</li>
+        <div class="jumbotron-social">
+          <ul class="ul-social">
+            <li class="li-social-links">
+              <a class="social" href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+            </li>
+            <li class="li-social-links">
+              <a class="social" href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </li>
+            <li class="li-social-links">
+              <a class="social" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </li>
+            <li class="li-social-links">
+              <a class="social" href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </li>
+            <li class="li-social-links">
+              <a class="social" href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            </li>
           </ul>
+        </div>
+        <div id="down-arrow">
+          <span><a href="#about"><i class="fa fa-chevron-down" aria-hidden="true"></i></a></span>
+        </div>
+      </div>
+      <!-- END HEADER -->
 
-          <form method="POST" action="https://formspree.io/email@email.com">
 
-            <div class="content-body">
-                <p>Copyright Eric "ET" Thornton 2018</p>
+
+      <!-- BEGIN ABOUT -->
+      <div class="row white box-shadow">
+        <div class="side-content"></div>
+        <div class="main-content">
+          <div class="content-header">
+            <a class="anchor" name="about"></a>
+            <h2>About</h2>
+          </div>
+          <div class="content-body">
+            <p>Passionate web developer from Atlanta, Ga.  Current full stack web development student attending Georgia Tech.  My goal is to provide optimal results by understanding my clients personality, thoughts and ideas.  My purpose is to enhance and innovate business and social communication through building dynamic applications.</p>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> -->
+          </div>
+        </div>
+        <div class="side-content"></div>
+      </div>
+      <!-- END ABOUT -->
+
+      <!-- BEGIN EXPERIENCE -->
+      <!-- <div class="row">
+        <div class="side-content"></div>
+        <div class="main-content">
+          <div class="content-header">
+            <a class="anchor" name="experience"></a>
+            <h2>Experience</h2>
+          </div> -->
+          <!-- CARD #1 -->
+          <!-- <div class="content-body">
+            <div class="card">
+              <div class="card-header">
+                <h4>Company <span class="job-title">Job Title</span></h4>
               </div>
-</body>
+              <div class="card-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div> -->
+
+          <!-- CARD #2 -->
+
+            <!-- <div class="card">
+              <div class="card-header">
+                <h4>Company <span class="job-title">Job Title</span></h4>
+              </div>
+              <div class="card-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div> -->
+
+          <!-- CARD #3 -->
+
+            <!-- <div class="card">
+              <div class="card-header">
+                <h4>Company <span class="job-title">Job Title</span></h4>
+              </div>
+              <div class="card-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="side-content"></div>
+      </div> -->
+      <!-- END EXPERIENCE -->
+
+      <!-- BEGIN EDUCATION -->
+      <div class="row white box-shadow">
+        <div class="side-content"></div>
+        <div class="main-content">
+          <div class="content-header">
+            <a class="anchor" name="education"></a>
+            <h2>Education</h2>
+          </div>
+          <div class="content-body">
+
+            <!-- EDUCATION 1 -->
+            <div class="card">
+              <div class="card-header">
+                <h4>Georgia Institue of Technology <span class="job-title">Jan 2017 - Aug 2018</span></h4>
+              </div>
+              <div class="card-content">
+                <p>Full-Stack Coding Boot Camp equipped me with the fundamental skills needed to become a full stack web developer.  This immersive 24-week program stretched my knowledge to new limits, building dynamic end-to-end web applications.  We had a cutting-edge curriculum that covered the basics of coding, algorithms and data structure, but takes you through intensive training in JavaScript, Node.js, HTML, CSS, jQuery, Java, MySql, Sequelize, MongoDb, React and more. In addition to engaging classroom instruction, we spent over 20 hours a week on outside projects and experiential program learning.</p>
+              </div>
+            </div>
+            <!-- EDUCATION 2 -->
+            <div class="card">
+              <div class="card-header">
+                <h4>Morehouse College <span class="job-title">Aug 2003 - May 2008</span></h4>
+              </div>
+              <div class="card-content">
+                <p>Graduated Morehouse College with a degree in Finance and minor in Economics.  At this phenomenal institution of thought and learning I gained pivotal life skills while obtaining world class Education.  It was a truly epic experience and this investment critically assisted me in becoming the leader and critical thinker to this day.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="side-content"></div>
+      </div>
+      <!-- END EDUCATION -->
+
+      <!-- BEGIN PROJECTS -->
+      <div class="row">
+        <div class="side-content-sm"></div>
+        <div class="main-content-lg">
+          <div class="content-header">
+            <a class="anchor" name="projects"></a>
+            <h2>Projects</h2>
+          </div>
+          <div class="content-body">
+            <!-- CARD #1 -->
+            <div class="project-card">
+              <div class="project-image">
+                <img src="images/opinnews1.PNG">
+              </div>
+              <div class="project-content">
+                <h4>OPINNEWS</h4>
+                <p>OpinNews is a creative way to post, share and rate articles in our Opi community to help expose fakeNews and validate legit news in a fun way.</p>
+                <a href="https://fast-bayou-29734.herokuapp.com/">OpinNews</a>
+              </div>
+            </div>
+            <!-- CARD #2 -->
+            <div class="project-card">
+              <div class="project-image">
+                <img src="images/biteshuffle1.PNG">
+              </div>
+              <div class="project-content">
+                <h4>BITESHUFFLE</h4>
+                <p>Honey, what’s for dinner?
+                    What are we going to eat?
+                    What’s for lunch?
+                    Are questions of the past with Biteshuffle. Biteshuffle takes your food preferences & searches and submits a recommended random dining option. The user can skip the random recommended option and continues to loop through random dining options.</p>
+                <a href="https://canbat.github.io/Bite-Shuffle/">Bite-Shuffle</a>
+              </div>
+            </div>
+      <!-- END PROJECTS -->
+
+      <!-- BEGIN SKILLS -->
+      <div class="row white box-shadow">
+        <div class="side-content"></div>
+        <div class="main-content">
+          <div class="content-header">
+            <a class="anchor" name="skills"></a>
+            <h2>Skills</h2>
+          </div>
+          <div class="content-body">
+            <ul class="ul-skills">
+              <li class="li-skills">Javascript</li>
+              <li class="li-skills">HTML</li>
+              <li class="li-skills">CSS</li>
+              <li class="li-skills">React</li>
+              <li class="li-skills">Node.js</li>
+              <li class="li-skills">Bootstrap</li>
+              <li class="li-skills">jQuery</li>
+              <li class="li-skills">Javascript</li>
+              <li class="li-skills">HTML</li>
+              <li class="li-skills">CSS</li>
+              <li class="li-skills">React</li>
+              <li class="li-skills">Node.js</li>
+              <li class="li-skills">Bootstrap</li>
+              <li class="li-skills">jQuery</li>
+            </ul>
+          </div>
+        </div>
+        <div class="side-content"></div>
+      </div>
+      <!-- END SKILLS -->
+
+      <!-- BEGIN CONTACT -->
+
+      <div class="row blue">
+        <div class="side-content"></div>
+        <div class="main-content">
+          <div class="content-header">
+            <a class="anchor" name="contact"></a>
+            <h2 class="white-text">Contact Me</h2>
+          </div>
+          <div class="contact content-body">
+            <form method="POST" action="https://formspree.io/email@email.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+        <div class="side-content"></div>
+      </div>
+      <!-- END CONTACT -->
+
+      <!-- BEGIN FOOTER -->
+      <div class="row">
+        <div class="side-content"></div>
+        <div class="main-content">
+          <div class="content-header">
+          </div>
+          <div class="content-body">
+            <p>Copyright Eric "ET" Thornton 2017</p>
+          </div>
+        </div>
+        <div class="side-content"></div>
+      </div>
+      <!-- END FOOTER -->
+
+    </div>
+  </body>
 </html>
